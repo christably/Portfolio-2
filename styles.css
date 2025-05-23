@@ -128,7 +128,7 @@ nav {
     font-weight: 700;
     color: var(--gold);
     display: flex;
-    gap: 0.5rem;
+    gap: 2rem;
     flex-wrap: wrap;
     text-transform: uppercase;
     letter-spacing: 1px;

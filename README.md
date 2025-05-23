@@ -9,7 +9,7 @@ Thus is a comprehensive `README.md`** for my portfolio project. It explains the 
 
 Welcome to the official portfolio of **Christabel Aidoo**, a resourceful Full-Stack Developer with a passion for programming, design, and AI-powered content creation.
 
-This project is a personal website built to showcase Christabel's skills, experience, and projects using a clean, professional **black and gold** theme.
+This project is a personal website built to showcase my skills, experience, and projects using a clean, professional **black and gold** theme.
 
 ---
 
@@ -27,8 +27,7 @@ This project is a personal website built to showcase Christabel's skills, experi
 ---
 
 ## Live Demo
-
-Coming soon! (Update with deployed site link)
+https://bellsportfolio.netlify.app/
 
 ---
 

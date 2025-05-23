@@ -122,6 +122,38 @@ nav {
     margin-bottom: 1rem;
 }
 
+
+#creative {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gold);
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5); /* soft gold glow */
+}
+
+#creative span {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: wordFade 1s forwards;
+}
+
+#creative span:nth-child(1) { animation-delay: 0s; }
+#creative span:nth-child(2) { animation-delay: 0.4s; }
+#creative span:nth-child(3) { animation-delay: 0.8s; }
+#creative span:nth-child(4) { animation-delay: 1.2s; }
+
+@keyframes wordFade {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 /* Buttons */
 .btn {
     display: inline-block;
@@ -202,10 +234,9 @@ nav {
 .project-img {
     position: relative;
     width: 100%;
-    aspect-ratio: 16 / 9; /* Keeps a consistent ratio */
+    aspect-ratio: 16 / 9;
     overflow: hidden;
 }
-
 
 .project-card {
     background-color: var(--dark-gray);
@@ -218,14 +249,6 @@ nav {
 .project-card:hover {
     transform: translateY(-5px);
 }
-
-/*
-.project-img img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-*/
 
 .project-img img {
     position: absolute;

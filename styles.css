@@ -141,10 +141,10 @@ nav {
     animation: wordFade 1s forwards;
 }
 
-#creative span:nth-child(1) { animation-delay: 0s; }
-#creative span:nth-child(2) { animation-delay: 0.4s; }
-#creative span:nth-child(3) { animation-delay: 0.8s; }
-#creative span:nth-child(4) { animation-delay: 1.2s; }
+#creative span:nth-child(1) { animation-delay: 1s; }
+#creative span:nth-child(2) { animation-delay: 2s; }
+#creative span:nth-child(3) { animation-delay: 3s; }
+#creative span:nth-child(4) { animation-delay: 4s; }
 
 @keyframes wordFade {
     to {
